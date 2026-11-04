@@ -1,0 +1,10 @@
+Crypto Deposit Watcher — START HERE
+
+1. Copy .env.example to .env.
+2. Set ETH_RPC_URL to an Ethereum Sepolia RPC endpoint.
+3. Keep EXPECTED_CHAIN_ID=11155111.
+4. Run: docker compose up --build -d
+5. Create an admin: docker compose exec api python manage.py createsuperuser
+6. Read README.md for endpoints, tests, security boundaries, and limitations.
+
+TESTNET ONLY. Do not use real funds or production wallet secrets.
